@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+body {
+  font-family: "Press Start 2P", cursive;
+  background-image: url("https://res.cloudinary.com/dsiiorq2l/image/upload/v1596963300/xbkYQh5q9s9Zae0ubNlbcweois1w53H3_nscrxp.jpg");
+  text-align: center;
+  justify-content: space-evenly;
+  color: white;
+  background-size: contain;
+  font-size: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.nav ul {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.nav ul li a:hover {
+  background-color: orange;
+  color: black;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+}
+
+.round {
+  border-radius: 50%;
+  border: 5px solid orangered;
+}
+
+#home {
+  display: flex;
+  color: black;
+  padding: 2%;
+  background-color: orange;
+}
+
+#specs {
+  display: flex;
+  justify-content: space-around;
+  grid-gap: 5px;
+}
+
+.game-pad {
+  margin: 0px 10% 0 10%;
+}
+
+.ease {
+  margin: 0 47.3% 0 47.3%;
+}
+
+.buyButton {
+  cursor: pointer;
+}
+
+.buyButton:hover {
+  color: black;
+  background-color: white;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.buyButton {
+  padding: 20px 10px;
+  border-radius: 10px;
+  height: auto;
+  width: fit-content;
+  margin: 0 47% 0 47%;
+}
